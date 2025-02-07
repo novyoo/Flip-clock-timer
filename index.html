@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flip timer</title>
+
+    <link rel="stylesheet" href="timer.css">
+    <script src="timer.js" defer></script>
+</head>
+
+
+<body>
+
+    <div class="controls">
+        <input type="number" id="ipHours" placeholder="Hours" min="0" max="99">
+        <input type="number" id="ipMinutes" placeholder="Mins" min="0" max="59">
+        <input type="number" id="ipSeconds" placeholder="Secs" min="0" max="59">
+        <button id="startTimer">Start</button>
+        <button id="stopTimer">Stop</button>
+        <button id="resetTimer">Reset</button>
+    </div>
+    
+    <div class="container">
+        <div class="sections" id="hours">
+            <div class="two_groups">
+                <div class="single">
+                    <div class="flip">
+                        <div class="top"></div>
+                        <div class="bottom"></div>
+                        <div class="effect">
+                            <div class="effect_top"></div>
+                            <div class="effect_bottom"></div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="single">
+                    <div class="flip">
+                        <div class="top"></div>
+                        <div class="bottom"></div>
+                        <div class="effect">
+                            <div class="effect_top"></div>
+                            <div class="effect_bottom"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="sections" id="minutes">
+            <div class="two_groups">
+                <div class="single">
+                    <div class="flip">
+                        <div class="top"></div>
+                        <div class="bottom"></div>
+                        <div class="effect">
+                            <div class="effect_top"></div>
+                            <div class="effect_bottom"></div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="single">
+                    <div class="flip">
+                        <div class="top"></div>
+                        <div class="bottom"></div>
+                        <div class="effect">
+                            <div class="effect_top"></div>
+                            <div class="effect_bottom"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="sections" id="seconds">
+            <div class="two_groups">
+                <div class="single">
+                    <div class="flip">
+                        <div class="top"></div>
+                        <div class="bottom"></div>
+                        <div class="effect">
+                            <div class="effect_top"></div>
+                            <div class="effect_bottom"></div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="single">
+                    <div class="flip">
+                        <div class="top"></div>
+                        <div class="bottom"></div>
+                        <div class="effect">
+                            <div class="effect_top"></div>
+                            <div class="effect_bottom"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <audio id="alarmSound" src="morning_flower.mp3" preload="auto"></audio>
+
+</body>
+</html>
